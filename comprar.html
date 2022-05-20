@@ -12,7 +12,73 @@
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
+
+    <header>
+
+<h1>PASAR A PAGAR</h1>
+
+    </header>
+
+    <main>
+
+        <form name="Comprar en Adidas" method="get" action="" enctype="application/x-www-form-urlencoded" enctype="multipart/form-data">
+            <fieldset>
+                <legend>informacion personal</legend>
+        
+           
+            <label for="nombre">Nombre:</label>
+        <input name="nombre" type="text" autocomplete="" autofocus required placeholder="ingrese su nombre" >
+        
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" autofocus required placeholder="ingrese su apellido">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required autofocus>
+
+
+        <fieldset>
+
+<legend>Direccion</legend>
+
+<input name="direccion" type="text" autocomplete="" autofocus required placeholder="ingrese su direccion" >
+<input type="number" name="altura" value="altura" placeholder="altura" required autofocus>
+
+        </fieldset>
+            <fieldset>
+
+                <legend>Metodo de pago</legend>
+
+                <select name="tipo-de-pago" required autofocus>
+
+                    <option value="mastercard">mastercard</option>
+                    <option value="visa">visa</option>
+                    <option value="efectivo" selected>efectivo</option> 
+                    <option value="transferencia" selected>transferencia</option> 
     
-    
+            </fieldset>
+
+            <legend>Datos de la tarjeta</legend>
+
+            <input type="text" name="numero-de-la-tarjeta" placeholder="N° de la tarjeta" required autofocus>
+            <input type="text" name="codigo-de-seguridad" placeholder="CVV" required autofocus>
+            <input type="month" name="fecha-de-caducidad" value="fecha de caududidad" required autofocus>
+
+            <fieldset>
+                Acepta los terminos y condiciones del servicio
+                <input type="checkbox" name="TyS" required autofocus>
+
+            </fieldset>
+
+            <input type="button" name="comprar" value="Comprar" >
+            
+    </main>
+
+    <footer>
+
+
+
+    </footer>
+
 </body>
 </html>
