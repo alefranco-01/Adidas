@@ -9,64 +9,81 @@
     <meta name="keywords" content="Ropa adidas, conjunto Adidas, zapatillas Adidas, Ropas deportiva Adidas, Adidas">
     <meta name="copyright" content="Adidas-Arg">
     <title>Adidas Sitio Oficial Argentina</title>
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos.css?version=1">
+
 </head>
 
 <body>
     
-    <header> 
+    <header class="header"> 
 
-        <h1>Adidas</h1>
+        <nav class="menu">
 
-        <nav>
-            <ul>
+        <h1 class="adidas">Adidas</h1>
+
+        
+            <ul class="lista">
            
                 <li>
-                 <a href="#hombre">Hombre</a>
+                 <a class="item" href="#hombre">Hombre</a>
                 </li>
                 <li>
-                 <a href="#mujer">Mujer</a>
+                 <a class="item" href="#mujer">Mujer</a>
                 </li>
                 <li>
-                 <a href="#niños">Niños</a>
+                 <a class="item" href="#niños">Niños</a>
                 </li>
                 <li>
-                 <a href="#deportes">Deportes</a>
+                 <a class="item" href="#deportes">Deportes</a>
                 </li>
                 <li>
-                 <a href="#conjuntos">Conjuntos</a>
+                 <a class="item" href="#conjuntos">Conjuntos</a>
                 </li>
-
+                
             </ul>
-        </nav>
+        
 
-        <h2><a href="#">Iniciar Sesion</a></h2>
+        <h2 class="iniciar-sesion"><a href="#">Iniciar Sesion</a></h2>
 
-        <img src="./img/adidas descuento.webp" alt="descuento de adidas">
-
+    </nav>
+    
     </header>
 
     <main>
+
+        <section>
+
+                <div class="iamgen-inicio">
+
+                    <img class="imagen1" src="./img/maxresdefault.jpg" alt="imagen de promocion">
+
+                </div>
+
+        </section>
+
 
         <!--parte principal de la pagina-->
 
        <section id="seccion-los-mas-popular">
 
-        <h2>LO MAS POPULAR</h2>
-
-        <div id="ropa-mujer">
-            <h3 id="mujer">MUJER</h3>
-            <img src="./img/ropa mujer.webp" alt="ropa de mujer">
+        <div class="contenedor-titulo1">
+            <h2 class="titulo1">LO MAS POPULAR</h2>
         </div>
 
-        <div id="ropa-hombre">
-            <h3 id="hombre">HOMBRE</h3>
-            <img src="./img/ropa hombre.webp" alt="ropa de hombre">
-        </div>
+        <div class="seccion">
 
-        <div id="ropa-niños">
-            <h3 id="niños">NIÑOS</h3>
-          <img src="./img/ropa niños.webp" alt="ropa de niños">
+            <div id="ropa-mujer" class="seleccion">
+                 <h3 id="mujer">MUJER</h3>
+            </div>
+
+            <div id="ropa-hombre" class="seleccion">
+                 <h3 id="hombre">HOMBRE</h3>
+            </div>
+
+            <div id="ropa-niños" class="seleccion">
+                 <h3 id="niños">NIÑOS</h3>
+            </div>
+
         </div>
 
        </section>
@@ -75,31 +92,37 @@
 
        <section id="seccion-novedades">
 
-        <h2><a href="#">NOVEDADES</a></h2>
-        <h2><a href="#">VER TODO</a></h2>
+        <div class="contenedor-titulo2">
+            <h2 class="titulo-novedades"><a href="#">NOVEDADES</a></h2>
+            <h2 class="titulo-ver-todo"><a href="#">VER TODO</a></h2>
+        </div>
         
-        <div id="buzos-adidas">
-            <img src="./img/buzo adidas.webp" alt="buzos de adidas">
+        <div class="card-container">
+
+        <div id="buzos-adidas" class="card">
+            <img class="imagen-card" src="./img/buzo adidas.webp" alt="buzos de adidas">
             <p>$xxxx.xx</p>
             <h3>Buzos Adidas</h3>
         </div>
 
-        <div id="conjuntos">
-            <img src="./img/conjunto adidas.webp" alt="conjuntos de adidas">
+        <div id="conjuntos" class="card">
+            <img class="imagen-card" src="./img/conjunto adidas.webp" alt="conjuntos de adidas">
             <p>$xxxx.xx</p>
             <h3>Conjuntos Adidas</h3>
         </div>
 
-        <div id="remera-argentina">
-            <img src="./img/remera argentina.webp" alt="remera de la seleccion Argentina">
+        <div id="remera-argentina" class="card">
+            <img class="imagen-card" src="./img/remera argentina.webp" alt="remera de la seleccion Argentina">
             <p>$xxxx.xx</p>
             <h3>Remera de la seleccion Argentina</h3>
         </div>
 
-        <div id="zapatillas-adidas">
-            <img src="./img/zapatilla negra.webp" alt="zapatillas adidas">
+        <div id="zapatillas-adidas" class="card">
+            <img class="imagen-card" src="./img/zapatilla negra.webp" alt="zapatillas adidas">
             <p>$xxxx.xx</p>
             <h3>Zapatillas Adidas</h3>
+        </div>
+
         </div>
 
        </section>
@@ -107,37 +130,42 @@
        <!--seccion de zapatillas deportivas-->
 
        <section id="deportes">
+        
+        <div class="contenedor-titulo3">
+            <h2 class="titulo3">ENCONTRAS TUS ZAPATILLAS PARA CORRER</h2>
+        </div>
 
-        <h2>ENCONTRAS TUS ZAPATILLAS PARA CORRER</h2>
+        <div class="card-container2">
 
-         <div>
+         <div class="card2">
              <img src="./img/running 1.webp" alt="zapatillas de running comodidad">
              <h3>Comodidad</h3>
              <p>Zapatillas de running para principiantes</p>
              <h4><a href="./comprar.html">COMPRAR AHORA</a></h4>
          </div>
 
-         <div>
+         <div class="card2">
             <img src="./img/running 2.jpg" alt="zapatillas de running amortiguacion">
             <h3>Amortiguacion</h3>
             <p>Zapatillas de running para usar diarias</p>
             <h4><a href="./comprar.html">COMPRAR AHORA</a></h4>
         </div>
 
-        <div>
+        <div class="card2">
             <img src="./img/running 3.webp" alt="zapatillas de running ligereza">
             <h3>Ligereza</h3>
             <p>Zapatillas de running de competicion</p>
             <h4><a href="./comprar.html">COMPRAR AHORA</a></h4>
         </div>
 
-        <div>
+        <div class="card2">
             <img src="./img/running 4.jpg" alt="zapatillas de running sujecion">
             <h3>Sujecion</h3>
             <p>Zapatillas de running para entrenar en distancias largas</p>
             <h4><a href="./comprar.html">COMPRAR AHORA</a></h4>
         </div>
 
+        </div>
 
        </section>
 
