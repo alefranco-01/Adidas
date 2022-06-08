@@ -1,0 +1,97 @@
+body{
+
+    border: 0px;
+    margin: 0px;
+
+}
+
+.menu{
+
+display: inline-flex;
+flex-flow: row wrap;
+width: 100%;
+height: 60px;
+z-index: 1000000;
+background-color: black;
+position: fixed;
+justify-content: space-between;
+top: 0px;
+
+}
+
+.menu .adidas {
+
+width: 120px;
+height: 55px;
+color: white !important;
+margin:2px 2px 2px 15px;  
+font-size: 35px;        
+padding: 0px;   
+text-align: center;
+text-transform: lowercase;
+font-family: sans-serif;
+
+}
+
+.menu ul{
+
+list-style: none;
+display: flex;
+width: 600px;
+height: 55px;   
+margin: 0px 5px;    
+padding: 1px;
+text-align: center;
+
+}
+
+.menu ul li {
+
+margin: 15px 5px;
+border-radius: 3px;
+width: 200px;   
+height: 55px;
+
+}
+
+.item {
+
+text-decoration: none;
+color: white !important;
+font-size: 20px;
+display: block;
+padding: 7px 13px;
+text-transform: uppercase;
+text-align: center;
+
+}
+
+.menu .iniciar-sesion {
+
+display: flex;
+
+margin: 15px 5px;
+border-radius: 3px;
+width: 200px;   
+height: 40px;
+
+}
+
+.menu .iniciar-sesion a{
+
+text-decoration: none;
+color: white !important;
+font-size: 20px;
+display: block;
+padding: 7px 13px;
+text-transform: uppercase;
+text-align: center;
+
+}
+
+.pasar-a-pagar{
+
+    margin-top:60px ;
+
+}
+

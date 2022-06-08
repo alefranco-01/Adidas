@@ -11,34 +11,27 @@ body{
     display: inline-flex;
     flex-flow: row wrap;
     width: 100%;
-    height: 50px;
+    height: 60px;
     z-index: 1000000;
     background-color: black;
     position: fixed;
     justify-content: space-between;
     top: 0px;
 
-    
-    
-    
 }
-
 
 .menu .adidas {
     
     width: 120px;
-    height: 40px;
+    height: 55px;
     color: white !important;
     margin:2px 2px 2px 15px;  
     font-size: 35px;        
-    padding: 1px;   
+    padding: 0px;   
     text-align: center;
     text-transform: lowercase;
     font-family: sans-serif;
    
- 
-    
-
 }
 
 .menu ul{
@@ -46,30 +39,23 @@ body{
     list-style: none;
     display: flex;
     width: 600px;
-    height: 40px;   
+    height: 55px;   
     margin: 0px 5px;    
     padding: 1px;
     text-align: center;
    
-   
-    
-   
-
-
 }
 
 .menu ul li {
     
-    margin: 5px 5px;
+    margin: 15px 5px;
     border-radius: 3px;
     width: 200px;   
-    height: 40px;
+    height: 55px;
     
-
 }
 
 .item {
-
 
     text-decoration: none;
     color: white !important;
@@ -79,29 +65,20 @@ body{
     text-transform: uppercase;
     text-align: center;
  
-
-
 }
 
 .menu .iniciar-sesion {
    
     display: flex;
     
-    margin: 5px 5px;
+    margin: 15px 5px;
     border-radius: 3px;
     width: 200px;   
     height: 40px;
 
-    
-    
-
-
-
 }
 
 .menu .iniciar-sesion a{
-
-  
 
     text-decoration: none;
     color: white !important;
@@ -111,6 +88,22 @@ body{
     text-transform: uppercase;
     text-align: center;
  
+}
+
+.h1 {
+    
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    margin-top: 60px ;
+    margin-bottom:0px ;
+    text-align: center;
+    padding-bottom: 5px;
+    text-decoration: double;
+    font-style: normal;
+    font-family: sans-serif;
+    text-transform: uppercase;
 
 }
   
@@ -121,7 +114,6 @@ body{
     width: 100%;
     max-width: 100%;
     
-
 }
 
 .imagen1{
@@ -139,9 +131,6 @@ section{
 
 }
 
-
-
-
 .contenedor-titulo1{
 
     background-color: black;
@@ -151,9 +140,6 @@ section{
     padding: 0px;
     color: white;
   
-
-
-
 }
 
 .titulo1{
@@ -164,8 +150,10 @@ section{
     padding: 11px 0px 0px 0px;
     text-indent: 10px;
     text-align: center;
+    text-decoration: double;
+    font-style: normal;
+    font-family: sans-serif;
     text-transform: uppercase;
-   
 
 }
 
@@ -183,16 +171,14 @@ section{
     border: 1px solid black;
     display: inline-flex;
     flex-flow: column wrap;
-    height: 350px;
+    height: 370px;
     width: 100px;
     justify-content: center;
     align-content: center;
     
-
     flex-basis: 30% ;
 
     color: white;
-
 
 }
 
@@ -203,8 +189,6 @@ section{
     background-position: center;
     background-repeat: no-repeat;
    
-
-
 }
 
 #ropa-hombre{
@@ -214,7 +198,6 @@ section{
     background-position: center;
     background-repeat: no-repeat;
    
-
 }
 
 #ropa-niños{
@@ -223,7 +206,6 @@ section{
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-   
 
 }
 
@@ -231,7 +213,6 @@ section{
 
     justify-content: center;
     align-items: center;
-
 
 }
 
@@ -244,8 +225,6 @@ section{
     padding: 0px;
     display: flex;
     flex-flow: row wrap;
-    
-    
 
 }
 
@@ -255,8 +234,6 @@ section{
     height: 50px;
 
 }
-
-
     
 .titulo-novedades{
 
@@ -265,6 +242,9 @@ section{
     height: 20px;
     padding: 11px 0px 0px 0px;
     text-indent: 10px;
+    text-decoration: double;
+    font-style: normal;
+    font-family: sans-serif;
     text-transform: uppercase;
     text-align:start;
 }
@@ -284,6 +264,9 @@ section{
     height: 20px;
     padding: 11px 0px 0px 0px;
     text-indent: 10px;
+    text-decoration: double;
+    font-style: normal;
+    font-family: sans-serif;
     text-transform: uppercase;
     text-align: end;
 
@@ -299,17 +282,92 @@ section{
 
 }
 
-
-
 .card {
     border: 1px solid black;
     display: inline-flex;
     flex-flow: column wrap;
     margin: 0px 20px;
 
-    
+    height: 350px;
+
     flex-basis: 20%;
     
+}
+
+#buzos-adidas p{
+
+    text-align: right;
+    margin-top: -18px;
+    background-color: white;
+    border: 1px solid black;
+    height: 15.80px;
+    width: 60px;
+    justify-content: center;
+    
+}
+
+#buzos-adidas h3{
+
+    margin: 0px;
+    text-align: center;
+    
+
+}
+
+#conjuntos p{
+
+    text-align: right;
+    margin-top: -18px;
+    background-color: white;
+    border: 1px solid black;
+    height: 15.80px;
+    width: 60px;
+    justify-content: center;
+
+}
+
+#conjuntos h3{
+
+    margin: 0px;
+    text-align: center;
+
+}
+
+#remera-argentina p{
+
+    text-align: right;
+    margin-top: -18px;
+    background-color: white;
+    border: 1px solid black;
+    height: 15.80px;
+    width: 60px;
+    justify-content: center;
+
+}
+
+#remera-argentina h3{
+
+    margin: 0px;
+    text-align: center;
+
+}
+
+#zapatillas-adidas p{
+
+    text-align: right;
+    margin-top: -18px;
+    background-color: white;
+    border: 1px solid black;
+    height: 15.80px;
+    width: 60px;
+    justify-content: center;
+
+}
+
+#zapatillas-adidas h3{
+
+    margin: 0px;
+    text-align: center;
 
 }
 
@@ -328,14 +386,10 @@ section{
 
 }
 
-
-
-
-
 #deportes{
 
     width: calc(100%);
-    height: 700px;
+    height: 690px;
     display: inline-block;
 
 }
@@ -350,6 +404,7 @@ section{
 #deportes p {
 
     margin: 0px;
+    font-family:sans-serif ;
 
 }
 
@@ -366,12 +421,18 @@ section{
 
 }
 
-#deportes div > img{
+#deportes h4 a :hover {
+
+    background-color: black;
+    color: white;
+
+}
+
+#deportes div img{
 
     height: 500px;
-    width: 300px;
+    width: 100%;
     
-
 }
 
 .card2 {
@@ -381,12 +442,12 @@ section{
     height: 620px;
     width: 300px;   
     margin: 0px 10px;   
+
+    align-content: space-between;
     
     flex-basis: 20%;
     
-
 }
-
 
 .card-container2 {
     display: inline-flex;
@@ -396,7 +457,6 @@ section{
     height: 500px;
     margin:0px 10px 0px 10px ;
 
-    
 }
 
 .contenedor-titulo3{
@@ -408,9 +468,6 @@ section{
     padding: 0px;
     color: white;
   
-
-
-
 }
 
 .titulo3{
@@ -421,14 +478,167 @@ section{
     padding: 11px 0px 0px 0px;
     text-indent: 10px;
     text-align: center;
+    text-decoration: double;
+    font-style: normal;
+    font-family: sans-serif;
     text-transform: uppercase;
-   
 
+   
 }
 
 #seccion-historia{
 
     width: 100%;
-    height: 800px;
+    height: 500px;
+    background-color: #dadada;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px 500px;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+
+    .historia1{ grid-area: 1 / 1 / 2 / 2; }
+    .texto-historia2 { grid-area: 2 / 1 / 3 / 2; }
+    .historia2 { grid-area: 1 / 2 / 2 / 3; }
+    .texto-historia2 { grid-area: 2 / 2 / 3 / 3; }
+
+#seccion-historia h2 {
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    margin: 20px 10px 10px 10px;
+
+}
+
+#seccion-historia p {
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 70px;
+    font-family:sans-serif ;
+    font-size: 17px;
+    
+}
+
+#promociones img {
+
+    width: 100%;
+    height: 250px;
+
+}
+
+#seccion-final {
+
+    display: inline-flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: -10px;
+}
+
+#seccion-final ul {
+
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 50px;   
+    margin: 0px;    
+    padding: 1px;
+    text-align: center;
+
+}
+
+#seccion-final ul li {
+    
+    display: flex;
+    margin: 5px 5px;
+    border-radius: 3px;
+    width: 200px;   
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#seccion-final a {
+
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family:sans-serif ;
+
+
+}
+
+.footer1 {
+
+    display: block;
+    position: relative;
+    justify-content: space-between;
+    background-color: #333333;
+
+    width: 100%;
+    height: 150px;
+}
+
+.footer1 ul {
+
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 50px;   
+    margin: 0px;    
+    padding: 1px;
+    text-align: center;
+
+}
+
+.footer1 ul li {
+
+    display: flex;
+    margin: 5px 5px;
+    border-radius: 3px;
+    width: 200px;   
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.footer1 a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer1 iframe {
+
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+   
+    
+
+}
+
+.footer1 p {
+    position: absolute;
+    color: white;
+    left: 50px;
+    bottom: 30px;
+   
 
 }
